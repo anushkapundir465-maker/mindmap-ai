@@ -1,0 +1,50 @@
+text,label
+"Tokenization splits text into smaller tokens such as words or subwords so a model can process language.",understanding
+"A tokenizer creates token boundaries and maps each token to a vocabulary identifier.",understanding
+"Text preprocessing can lowercase words and handle punctuation before tokens become model inputs.",understanding
+"Subword tokenization can represent an unfamiliar word using several known vocabulary pieces.",understanding
+"Natural language processing applies computational methods and machine learning to human language.",understanding
+"Sentiment analysis and translation are examples of tasks in natural language processing.",understanding
+"A TF-IDF score combines term frequency in a document with inverse document frequency across documents.",understanding
+"Inverse document frequency reduces the weight of a term that occurs in many documents in a corpus.",understanding
+"A distinctive word can receive a larger TF-IDF weight than a common word.",understanding
+"A neural network uses layers of weighted connections and activation functions to transform input.",understanding
+"Hidden layers learn useful representations and an output layer produces a prediction.",understanding
+"Training changes network parameters so predictions reduce a loss function.",understanding
+"Backpropagation calculates gradients of the loss with respect to weights using the chain rule.",understanding
+"An optimizer uses gradients and a learning rate to update model weights and reduce error.",understanding
+"The loss gradient is propagated backward from the output layer through earlier layers.",understanding
+"An LSTM uses a memory cell with input, forget, and output gates to regulate information.",understanding
+"The forget gate controls which information leaves an LSTM cell state.",understanding
+"Gated recurrent networks can help preserve useful information over long sequences.",understanding
+"A GRU uses reset and update gates to manage a hidden state across a sequence.",understanding
+"The GRU update gate balances a previous hidden state with a candidate state.",understanding
+"A GRU has a simpler gate structure than an LSTM and does not use a separate cell state.",understanding
+"A tokenizer divides text into words or subwords and gives the resulting tokens a representation.",understanding
+"A classification model can learn patterns from labeled text examples.",understanding
+"The training set is used to fit model parameters while held-out examples estimate generalization.",understanding
+"A neural network loss measures the difference between predictions and target labels.",understanding
+"Tokenization means translating every sentence into a single number without creating tokens.",misconception
+"Subword tokenization only works when every complete word already exists in the vocabulary.",misconception
+"Punctuation must always be deleted because it never carries useful information in text.",misconception
+"Natural language processing only studies spoken audio and cannot work with written text.",misconception
+"TF-IDF gives the most common word in every document the highest importance score.",misconception
+"Inverse document frequency increases a term weight when that term appears in all documents.",misconception
+"TF-IDF is a neural network that learns the meaning of a sentence from its grammar.",misconception
+"A neural network contains no weights and produces predictions without changing its input.",misconception
+"Activation functions are used only to store training examples and do not affect a network output.",misconception
+"A hidden layer is the final answer and is never connected to another layer.",misconception
+"Backpropagation updates weights by sending the original input forward through the network.",misconception
+"The chain rule is unrelated to gradients when a loss passes through multiple layers.",misconception
+"A larger learning rate always guarantees that training reaches the best possible solution.",misconception
+"An LSTM forget gate decides which new output label must be printed by a tokenizer.",misconception
+"The cell state in an LSTM is discarded at every step so no sequence information remains.",misconception
+"LSTM gates guarantee perfect memory for any sequence length without training.",misconception
+"A GRU uses a separate memory cell and exactly the same three gates as an LSTM.",misconception
+"The reset gate in a GRU measures inverse document frequency in a text corpus.",misconception
+"A GRU cannot process sequential information because it has no hidden state.",misconception
+"A test set should be used repeatedly to tune all parameters before reporting its final score.",misconception
+"Accuracy alone explains every kind of classification error, even when the classes are imbalanced.",misconception
+"A classifier confidence score is the same thing as a student's actual mastery of a topic.",misconception
+"A high cosine similarity proves that two explanations are correct and demonstrate understanding.",misconception
+"Stop-word removal is always appropriate and never changes the meaning of a text task.",misconception
